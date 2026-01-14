@@ -6,7 +6,7 @@ class Config(object):
     # You can keep this default
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # Put MongoDB URL
-    DATABASE_URL = "sqlite:///my_bot.db")
+    DATABASE_URL = "sqlite:///my_bot.db"
     # get a token from @BotFather
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
     # The Telegram API things
